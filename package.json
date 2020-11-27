@@ -3,7 +3,8 @@
   "version": "2.0.0-rc.11",
   "scripts": {
     "bootstrap": "yarn install",
-    "start": "esno ./build/script/preserve.ts && cross-env NODE_ENV=development vite",
+    "start": "vite",
+    "starts": "esno ./build/script/preserve.ts && cross-env NODE_ENV=development vite",
     "build": "cross-env NODE_ENV=production vite build && esno ./build/script/postBuild.ts",
     "build:site": "cross-env SITE=true npm run build ",
     "build:no-cache": "yarn  clean:cache && npm run build",
@@ -95,15 +96,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anncwb/vue-vben-admin.git"
+    "url": "git+https://github.com/Alarikshaw/vue-next-template.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anncwb/vue-vben-admin/issues"
+    "url": "https://github.com/Alarikshaw/vue-next-template/issues"
   },
-  "homepage": "https://github.com/anncwb/vue-vben-admin",
+  "homepage": "https://github.com/Alarikshaw/vue-next-template",
   "changelog": {
-    "bugsUrl": "https://github.com/anncwb/vue-vben-admin/issues",
+    "bugsUrl": "https://github.com/Alarikshaw/vue-next-template/issues",
     "emojis": true,
     "authorName": false,
     "authorEmail": false
