@@ -109,12 +109,6 @@
     "authorName": false,
     "authorEmail": false
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "ls-lint && lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "engines": {
     "node": ">=10.16.1"
   }
