@@ -1,6 +1,6 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
-  <Login msg="Hello Vue 3.0 + Vite + Alarikshaw Admin Login" />
+  <router-view />
 </template>
 
 <script>

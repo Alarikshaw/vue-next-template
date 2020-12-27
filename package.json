@@ -1,10 +1,12 @@
 {
-  "name": "vue-plug-admin",
-  "version": "2.0.0-rc.11",
+  "name": "vue-next-template",
+  "version": "1.0.0-rc.03",
   "scripts": {
     "bootstrap": "yarn install",
     "start": "vite",
+    "init:starts": "yarn clean:cache && yarn starts",
     "starts": "esno ./build/script/preserve.ts && cross-env NODE_ENV=development vite",
+    "clean:cache": "rimraf node_modules/.cache/ && rimraf node_modules/.vite_opt_cache",
     "build": "cross-env NODE_ENV=production vite build && esno ./build/script/postBuild.ts",
     "build:site": "cross-env SITE=true npm run build ",
     "build:no-cache": "yarn  clean:cache && npm run build",
@@ -13,7 +15,6 @@
     "preview": "npm run build && esno ./build/script/preview.ts",
     "preview:dist": "esno ./build/script/preview.ts",
     "log": "esno ./build/script/changelog.ts",
-    "clean:cache": "rimraf node_modules/.cache/ && rimraf node_modules/.vite_opt_cache",
     "clean:lib": "npx rimraf node_modules",
     "ls-lint": "npx ls-lint",
     "lint:eslint": "eslint --fix --ext \"src/**/*.{vue,less,css,scss}\"",
@@ -24,6 +25,7 @@
   "dependencies": {
     "ant-design-vue": "^2.0.0-rc.4",
     "axios": "^0.21.0",
+    "crypto-es": "^1.2.6",
     "lodash-es": "^4.17.15",
     "nprogress": "^0.2.0",
     "vue": "^3.0.4",

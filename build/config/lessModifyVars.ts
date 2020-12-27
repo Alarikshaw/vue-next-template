@@ -1,11 +1,11 @@
 /**
  * less global variable
  */
-const primaryColor = '#018ffb';
+const primaryColor = '#87CEEB';
 //{
 const modifyVars = {
   'primary-color': primaryColor, //  Global dominant color
-  'info-color': primaryColor, //  Default color
+  'info-color': '#87CEEB', //  Default color
   'success-color': '#55D187', //  Success color
   'error-color': '#ED6F6F', //  False color
   'warning-color': '#EFBD47', //   Warning color

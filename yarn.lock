@@ -380,9 +380,9 @@
   integrity sha512-BybEHU5/I9EQ0CcwKAqmreZ2bMnAXrqLCTptAc6vPetHMbrXdZfejP5mt57e/8PNSt/qE7BHniU5PCYA+PGIHw==
 
 "@iconify/json@^1.1.260":
-  version "1.1.264"
-  resolved "https://registry.yarnpkg.com/@iconify/json/-/json-1.1.264.tgz#c8a96a63452aa5a45ffdd752e9eb5db4d81285ba"
-  integrity sha512-8roHMDJ/dt9kg2ggXOS7LTXs4BR6vHQDFLIdrKhyXEIRLKRokwOIG1XpdGWVc36VZh/5itwENq5xvdd3r40Ckw==
+  version "1.1.277"
+  resolved "https://registry.yarnpkg.com/@iconify/json/-/json-1.1.277.tgz#e11e01833b05845ce1afc5ad61759804f6ed2eb2"
+  integrity sha512-66n4lsv57iRwtcb2Q8ax8iasVLzFz9VWcqtgobHVrvyfsVqf8hSldJELnTl/gtqayqa35pT4mHEpdfsqt1mnLA==
 
 "@koa/cors@^3.1.0":
   version "3.1.0"
@@ -2088,6 +2088,11 @@ cross-spawn@^7.0.0, cross-spawn@^7.0.1, cross-spawn@^7.0.2:
     path-key "^3.1.0"
     shebang-command "^2.0.0"
     which "^2.0.1"
+
+crypto-es@^1.2.6:
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/crypto-es/-/crypto-es-1.2.6.tgz#468f3573a5d7b82e3b63b0004f55f905a6d3b12c"
+  integrity sha512-PQnrovdr5ibmOxqAh/Vy+A30RokHom7kb9Z61EPwfASfbcJCrCG4+vNNegmebNVHiXvS7WjYpHDePxnE/biEbA==
 
 cssesc@^3.0.0:
   version "3.0.0"
